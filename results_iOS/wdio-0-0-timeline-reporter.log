@@ -1,0 +1,312 @@
+{
+  "start": "2021-12-15T20:18:48.833Z",
+  "end": "2021-12-15T20:19:28.433Z",
+  "capabilities": {
+    "webStorageEnabled": false,
+    "locationContextEnabled": false,
+    "browserName": "",
+    "platform": "MAC",
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "takesScreenshot": true,
+    "networkConnectionEnabled": false,
+    "platformName": "iOS",
+    "platformVersion": "15.0",
+    "deviceName": "iPhone 13",
+    "app": "/Users/marina/Desktop/autTesting/appsAn&iOS/apps/citymove.app",
+    "noReset": true,
+    "automationName": "XCUITest",
+    "udid": "288F93EE-77F3-438D-A9A9-E197809FD0D4",
+    "sessionId": "7e57b221-55d0-4812-80f3-2a9f660dc171"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "framework": "mocha",
+  "duration": 39600,
+  "suites": [
+    {
+      "title": "Smoke testing in anonumous mode",
+      "duration": 39593,
+      "start": "2021-12-15T20:18:48.837Z",
+      "end": "2021-12-15T20:19:28.430Z",
+      "tests": [
+        {
+          "title": "Onboarding - verification of the first page:links and the Accept button",
+          "start": "2021-12-15T20:18:48.837Z",
+          "end": "2021-12-15T20:18:53.451Z",
+          "duration": 4614,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Onboarding - verification of the 2 page (text verification,click on its button)",
+          "start": "2021-12-15T20:18:53.453Z",
+          "end": "2021-12-15T20:18:59.173Z",
+          "duration": 5720,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599533823.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - click on \"Allow once\" of module, verification of module\"s text",
+          "start": "2021-12-15T20:18:59.174Z",
+          "end": "2021-12-15T20:19:00.765Z",
+          "duration": 1591,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599539387.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - Dont forget to pay for parking page (text verification,click on Continue)",
+          "start": "2021-12-15T20:19:00.765Z",
+          "end": "2021-12-15T20:19:06.152Z",
+          "duration": 5387,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599541229.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - click on Allow permission, verification of module\"s text",
+          "start": "2021-12-15T20:19:06.153Z",
+          "end": "2021-12-15T20:19:10.222Z",
+          "duration": 4069,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599546329.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - text verification, click on Continue button of the next page",
+          "start": "2021-12-15T20:19:10.222Z",
+          "end": "2021-12-15T20:19:15.542Z",
+          "duration": 5320,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599550379.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - click on Allow Notifications",
+          "start": "2021-12-15T20:19:15.543Z",
+          "end": "2021-12-15T20:19:19.711Z",
+          "duration": 4168,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599555729.jpeg"
+          ]
+        },
+        {
+          "title": "Registration page - text verification,click on Skip and Allow track to go to the anonimous mode",
+          "start": "2021-12-15T20:19:19.712Z",
+          "end": "2021-12-15T20:19:25.193Z",
+          "duration": 5481,
+          "state": "failed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599560004.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Expect $(`~Citymove logo`) to exist\n\nExpected: \u001b[32m\"exist\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnot \u001b[27mexist\"\u001b[39m",
+            "stack": "Error: Expect $(`~Citymove logo`) to exist\n\nExpected: \u001b[32m\"exist\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnot \u001b[27mexist\"\u001b[39m\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:86:52)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+          }
+        },
+        {
+          "title": "Main page - click on Allow button of a module, verefication of its text",
+          "start": "2021-12-15T20:19:25.194Z",
+          "end": "2021-12-15T20:19:26.922Z",
+          "duration": 1728,
+          "state": "failed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_iOS/file-1639599565846.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "write EPIPE",
+            "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:795:11)\n    at Socket._write (node:net:807:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at Socket.Writable.write (node:internal/streams/writable:335:10)\n    at console.value (node:internal/console/constructor:285:16)\n    at console.log (node:internal/console/constructor:359:26)\n    at /Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/logger/build/node.js:100:9"
+          }
+        },
+        {
+          "title": "Main page - titles of 6 sections are displayed correctly",
+          "start": "2021-12-15T20:19:26.923Z",
+          "end": "2021-12-15T20:19:27.422Z",
+          "duration": 499,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "write EPIPE",
+            "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:795:11)\n    at Socket._write (node:net:807:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at Socket.Writable.write (node:internal/streams/writable:335:10)\n    at console.value (node:internal/console/constructor:285:16)\n    at console.log (node:internal/console/constructor:359:26)\n    at /Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/logger/build/node.js:100:9"
+          }
+        },
+        {
+          "title": "Main page - titles of the Tab Bar are displayed correctly",
+          "start": "2021-12-15T20:19:27.423Z",
+          "end": "2021-12-15T20:19:27.923Z",
+          "duration": 500,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "write EPIPE",
+            "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:795:11)\n    at Socket._write (node:net:807:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at Socket.Writable.write (node:internal/streams/writable:335:10)\n    at console.value (node:internal/console/constructor:285:16)\n    at console.log (node:internal/console/constructor:359:26)\n    at /Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/logger/build/node.js:100:9"
+          }
+        },
+        {
+          "title": "Main page - verification of get to Home button and field",
+          "start": "2021-12-15T20:19:27.923Z",
+          "end": "2021-12-15T20:19:27.926Z",
+          "duration": 3,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:125:16)"
+          }
+        },
+        {
+          "title": "Main page - verification of get to Work button",
+          "start": "2021-12-15T20:19:27.927Z",
+          "end": "2021-12-15T20:19:27.928Z",
+          "duration": 1,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:131:17)"
+          }
+        },
+        {
+          "title": "Click on the search field and input an address",
+          "start": "2021-12-15T20:19:27.929Z",
+          "end": "2021-12-15T20:19:27.931Z",
+          "duration": 2,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at Routing.clickOnSearchField (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/routing.js:18:3)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:138:3)"
+          }
+        },
+        {
+          "title": "Verification of the Covid section",
+          "start": "2021-12-15T20:19:27.932Z",
+          "end": "2021-12-15T20:19:27.934Z",
+          "duration": 2,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnCovidIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:64:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:150:3)"
+          }
+        },
+        {
+          "title": "Verification of the Charging stations section",
+          "start": "2021-12-15T20:19:27.936Z",
+          "end": "2021-12-15T20:19:27.940Z",
+          "duration": 4,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnChargingStIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:68:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:158:3)"
+          }
+        },
+        {
+          "title": "Verification of the Cars section",
+          "start": "2021-12-15T20:19:27.940Z",
+          "end": "2021-12-15T20:19:27.942Z",
+          "duration": 2,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnCarsIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:72:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:166:3)"
+          }
+        },
+        {
+          "title": "Verification of the Parking section",
+          "start": "2021-12-15T20:19:27.942Z",
+          "end": "2021-12-15T20:19:27.943Z",
+          "duration": 1,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnParkingIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:76:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:174:3)"
+          }
+        },
+        {
+          "title": "Verification of the Scooters section",
+          "start": "2021-12-15T20:19:27.944Z",
+          "end": "2021-12-15T20:19:28.423Z",
+          "duration": 479,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "write EPIPE",
+            "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:795:11)\n    at Socket._write (node:net:807:8)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at Socket.Writable.write (node:internal/streams/writable:335:10)\n    at console.value (node:internal/console/constructor:285:16)\n    at console.log (node:internal/console/constructor:359:26)\n    at /Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/logger/build/node.js:100:9"
+          }
+        },
+        {
+          "title": "Verification of the PT section",
+          "start": "2021-12-15T20:19:28.424Z",
+          "end": "2021-12-15T20:19:28.425Z",
+          "duration": 1,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnPTIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:60:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:186:3)"
+          }
+        },
+        {
+          "title": "Profile section in anonumous mode - all sectors are displayed",
+          "start": "2021-12-15T20:19:28.426Z",
+          "end": "2021-12-15T20:19:28.427Z",
+          "duration": 1,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnProfileIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:85:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:198:3)"
+          }
+        },
+        {
+          "title": "Tickets section in anonumous mode - all tickets are displayed",
+          "start": "2021-12-15T20:19:28.427Z",
+          "end": "2021-12-15T20:19:28.429Z",
+          "duration": 2,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "A sessionId is required for this command",
+            "stack": "Error: A sessionId is required for this command\n    at NodeJSRequest._createOptions (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:81:23)\n    at NodeJSRequest.makeRequest (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/request/index.js:43:38)\n    at Browser.protocolCommand (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriver/build/command.js:74:24)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:38)\n    at Browser.$ (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/webdriverio/build/commands/browser/$.js:88:17)\n    at Browser.wrapCommandFn (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:131:29)\n    at MainPage.clickOnTicketsIcon (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/screen-objects/account/mainScreen.js:97:5)\n    at Context.<anonymous> (/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js:213:3)"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/anonumousiOS.spec.js"
+  ],
+  "state": {
+    "passed": 7,
+    "failed": 15,
+    "skipped": 0
+  }
+}

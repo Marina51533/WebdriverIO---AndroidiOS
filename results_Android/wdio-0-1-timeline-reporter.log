@@ -1,0 +1,197 @@
+{
+  "start": "2021-12-15T12:25:24.126Z",
+  "end": "2021-12-15T12:26:23.180Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "11",
+      "deviceName": "Pixel 3A",
+      "app": "/Users/marina/Desktop/autTesting/appsAn&iOS/apps/edk.apk",
+      "appPackage": "cz.citymove",
+      "appActivity": "cz.citymove.ui.router.RouterActivity",
+      "automationName": "UiAutomator2",
+      "androidInstallTimeout": 62000
+    },
+    "platformName": "Android",
+    "platformVersion": "11",
+    "deviceName": "emulator-5554",
+    "app": "/Users/marina/Desktop/autTesting/appsAn&iOS/apps/edk.apk",
+    "appPackage": "cz.citymove",
+    "appActivity": "cz.citymove.ui.router.RouterActivity",
+    "automationName": "UiAutomator2",
+    "androidInstallTimeout": 62000,
+    "deviceUDID": "emulator-5554",
+    "deviceApiLevel": 30,
+    "deviceScreenSize": "1080x2220",
+    "deviceScreenDensity": 440,
+    "deviceModel": "sdk_gphone_x86",
+    "deviceManufacturer": "Google",
+    "pixelRatio": 2.75,
+    "statBarHeight": 66,
+    "viewportRect": {
+      "left": 0,
+      "top": 66,
+      "width": 1080,
+      "height": 2022
+    },
+    "sessionId": "f73135ac-dca8-426e-9ac3-c51a60b2519e"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "framework": "mocha",
+  "duration": 59054,
+  "suites": [
+    {
+      "title": "Smoke test of Android",
+      "duration": 57947,
+      "start": "2021-12-15T12:25:24.130Z",
+      "end": "2021-12-15T12:26:22.077Z",
+      "tests": [
+        {
+          "title": "Onboarding - verification of the first page:links and the Accept button",
+          "start": "2021-12-15T12:25:24.130Z",
+          "end": "2021-12-15T12:25:28.448Z",
+          "duration": 4318,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Onboarding - verification of the 2 page (text verification,click on its button)",
+          "start": "2021-12-15T12:25:28.450Z",
+          "end": "2021-12-15T12:25:30.120Z",
+          "duration": 1670,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571129865.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - click on \"Allow once\" of module, verification of module\"s text",
+          "start": "2021-12-15T12:25:30.122Z",
+          "end": "2021-12-15T12:25:31.284Z",
+          "duration": 1162,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571131074.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - Dont forget to pay for parking page (text verification,click on Continue)",
+          "start": "2021-12-15T12:25:31.285Z",
+          "end": "2021-12-15T12:25:33.014Z",
+          "duration": 1729,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571132702.jpeg"
+          ]
+        },
+        {
+          "title": "Onboarding - click on Allow your motion, verification of module\"s text",
+          "start": "2021-12-15T12:25:33.015Z",
+          "end": "2021-12-15T12:25:34.036Z",
+          "duration": 1021,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571133790.jpeg"
+          ]
+        },
+        {
+          "title": "Registration page - text verification,click on Skip and Allow track to go to the anonimous mode",
+          "start": "2021-12-15T12:25:34.036Z",
+          "end": "2021-12-15T12:25:34.710Z",
+          "duration": 674,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Registration page - login is clickable",
+          "start": "2021-12-15T12:25:34.714Z",
+          "end": "2021-12-15T12:25:36.284Z",
+          "duration": 1570,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571135530.jpeg",
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571135991.jpeg"
+          ]
+        },
+        {
+          "title": "Login page - element visabiity",
+          "start": "2021-12-15T12:25:36.285Z",
+          "end": "2021-12-15T12:25:37.636Z",
+          "duration": 1351,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571137569.jpeg"
+          ]
+        },
+        {
+          "title": "Login page - input of the correct email",
+          "start": "2021-12-15T12:25:37.638Z",
+          "end": "2021-12-15T12:25:38.533Z",
+          "duration": 895,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571138111.jpeg"
+          ]
+        },
+        {
+          "title": "Login page - input of the correct password",
+          "start": "2021-12-15T12:25:38.534Z",
+          "end": "2021-12-15T12:25:40.140Z",
+          "duration": 1606,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571139418.jpeg"
+          ]
+        },
+        {
+          "title": "Login page - login button click to go further",
+          "start": "2021-12-15T12:25:40.142Z",
+          "end": "2021-12-15T12:26:06.255Z",
+          "duration": 26113,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571141131.jpeg"
+          ]
+        },
+        {
+          "title": "Main page - the main page assertion",
+          "start": "2021-12-15T12:26:06.256Z",
+          "end": "2021-12-15T12:26:10.275Z",
+          "duration": 4019,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571167070.jpeg"
+          ]
+        },
+        {
+          "title": "Main page  - click on the  field home address and input an address",
+          "start": "2021-12-15T12:26:10.276Z",
+          "end": "2021-12-15T12:26:22.076Z",
+          "duration": 11800,
+          "state": "passed",
+          "screenshots": [
+            "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/results_Android/file-1639571170578.jpeg"
+          ]
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/Users/marina/Desktop/autTesting/citymoveAndroidiOS/src/test-scripts/account/smokeAndroid.spec.js"
+  ],
+  "state": {
+    "passed": 13,
+    "failed": 0,
+    "skipped": 0
+  }
+}
