@@ -55,7 +55,7 @@ it('Onboarding - verification of the 2 page (text verification,click on its butt
     await expect(await Onboarding.skip_button).toExist();
     await expect(await Onboarding.allow_motion_continue_button).toExist();
     await Onboarding.clickOnAllowMotionContinueBtn();
-    await driver.pause(4000);
+    await driver.pause(3000);
   })
 
   it('Onboarding - click on Allow permission, verification of module"s text', async()=>{
